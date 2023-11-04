@@ -1,0 +1,93 @@
+html, body {
+    height: 98%;
+}
+
+body {
+    background: black;
+    color: antiquewhite;
+    font-family: monospace;
+}
+
+main {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+    border: 1px solid white;
+    position: relative;
+}
+
+.bg-image {
+    background-image: url("../media/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(0.2);
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper .summary {
+    width: 70%;
+    text-align: justify;
+}
+
+.wrapper {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    height: 100%;
+    width: 100% ;
+    color: white;
+}
+
+.wrapper a {
+    color: white;
+}
+
+header, footer, .left {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.left {
+    width: 70%;
+    border-right: 1px solid;
+}
+
+.right {
+    width: 30%;
+}
+
+.left div, .right div {
+    width: 100%;
+}
+
+.left div {
+    margin: auto;
+}
+
+.right div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: larger;
+    padding: 10px;
+}
+
+table {
+    text-align: left;
+    margin: auto;
+    font-size: larger;
+}
+
+tr>td:first-child {
+    font-weight: bold;
+}
+
+td {
+    padding: 5px 10px;
+}
